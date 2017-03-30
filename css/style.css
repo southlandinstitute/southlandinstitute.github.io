@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Sorbonne';
+	src: url('typefaces/SorbonneReg.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+  font-family: 'Sorbonne', serif; /* Arial, sans-serif; */
+  margin left: 40px;
+  font-size: 1.5em;
+  font-variant-numeric: oldstyle-nums;
+  
+}
+
+bold {
+	font-weight: bold;
+}
+
+#badge-container {
+	position: fixed;
+	top: 46%; 
+	left: 47%; 
+	width: 30%; 
+	height: 30%; 
+	margin: -70px 0 0 -70px;
+	z-index: 90;
+}
+
+
+svg {
+   fill: #000000;   
+   transition: fill 1.5s ease;
+   -webkit-transition: fill 1.5s ease;
+}
+
+
+
+.underline {
+	text-decoration: underline;
+} 
+
+.anchor {
+	margin-top: -16px;
+	padding-top: 16px;
+}
+
+nav ul li {
+	margin-left: 0;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+a:link {color: #267899; text-decoration: none; }
+a:active {color: #0000ff; text-decoration: none; }
+a:visited {color: #267899; text-decoration: none; }
+a:hover {color: #000000; text-decoration: underline; }
+
+
+img {
+    max-width: 100%;
+    /*max-height: 100%;*/
+}
