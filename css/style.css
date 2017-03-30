@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Sorbonne';
-	src: url('typefaces/SorbonneReg.woff') format('woff');
+	src: url('../typefaces/SorbonneReg.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
